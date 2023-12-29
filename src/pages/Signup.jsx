@@ -47,7 +47,7 @@ function Signup(props) {
                     <button
                         onClick={addNewUsers}
                         className=" bg-yellow-400 rounded-md  p-1 text-1xl font-bold w-24">Sign up</button>
-                    <p>Already have an account? <Link className=" underline" to={"/login"}>Login</Link></p>
+                    <p>Already have an account? <Link className=" underline" to={"/"}>Login</Link></p>
                 </div>
             </div>
         </div>
